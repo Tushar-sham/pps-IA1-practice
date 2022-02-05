@@ -1,19 +1,25 @@
-#include<stdio.h>
-#include<string.h>
-int main()
-{
-  char str1[20];
-  char str2[20];
-  int value;
-  printf("enter the first string : ");
-  scanf("%s",str1);
-  printf("enter the second string : ");
-  scanf("%s",str2);
 
-  value=strcmp(str1,str2);
-  if(value==0)
-  printf("string are same");
-  else
-  printf("string are not same");
-  return 0;
-}
+#include<stdio.h>
+struct complex 
+{
+  int real, img;
+};
+int main()
+  {
+    int num= 1,count;
+    float sum=0.0, fact;
+    while (num<= 7)
+    {
+      fact=1;
+      for(count=1; count<= num; count++)
+      {
+        fact = fact* count;
+      }
+  sum =sum+(num/fact);
+  num++;
+    }
+    printf("sum of series is %f\n",sum);
+    return 0;
+  }
+  
+
