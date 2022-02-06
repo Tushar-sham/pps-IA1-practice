@@ -1,3 +1,4 @@
+
 #include<stdio.h>
 void input(int *a,int *b,int *c)
 {
@@ -33,3 +34,5 @@ void cmp(int a,int b,int c,int *large)
     output(large);
     return 0;
   }
+  
+  
