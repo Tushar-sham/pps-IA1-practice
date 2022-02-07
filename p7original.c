@@ -21,5 +21,3 @@ int main()
     printf("sum of series is %f\n",sum);
     return 0;
   }
-  
-
