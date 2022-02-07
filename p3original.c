@@ -1,5 +1,5 @@
-#include <stdio.h>
 
+#include <stdio.h>
 int input()
 {
   int a;
@@ -29,5 +29,4 @@ int main()
   int sum = calc(n);
   output(n, sum);
   return 0;
-
 }
